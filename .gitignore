@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node (in case you add tooling later, e.g. a local dev server)
+node_modules/
+npm-debug.log*
+
+# Env / secrets (in case you move EmailJS keys or similar out of index.html later)
+.env
+.env.local
