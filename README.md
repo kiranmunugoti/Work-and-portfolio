@@ -6,10 +6,19 @@ Contains project work and personal project ideas — data science / ML case stud
 
 | Folder / File | Description |
 |---|---|
-| [`01-risk-scoring/`](./01-risk-scoring) | _Add a 1–2 line description of this project_ |
-| [`02-financial-forecasting/`](./02-financial-forecasting) | _Add a 1–2 line description of this project_ |
-| [`03-churn-segmentation/`](./03-churn-segmentation) | _Add a 1–2 line description of this project_ |
-| [`04-fraud-detection/`](./04-fraud-detection) | _Add a 1–2 line description of this project_ |
+| [`01-risk-scoring/`](./01-risk-scoring) |
+| Risk scoring framework built for a hospitality portfolio context, combining multiple weighted risk dimensions into a single composite score to support portfolio-level 
+  decision-making.
+  Techniques: Multi-factor scoring, weighted aggregation, risk segmentation |
+| [`02-financial-forecasting/`](./02-financial-forecasting) | 
+| End-to-end forecasting pipeline for financial risk metrics using an ensemble of classical time-series methods.
+  Techniques: ARIMA, Holt-Winters exponential smoothing, ensemble forecasting |
+| [`03-churn-segmentation/`](./03-churn-segmentation) | 
+| Customer churn prediction paired with Recency-Frequency-Monetary (RFM) segmentation to identify at-risk, high-value customers.
+  Techniques: Logistic Regression, XGBoost, RFM segmentation, feature engineering.|
+| [`04-fraud-detection/`](./04-fraud-detection) | 
+| Model to flag anomalous and potentially fraudulent healthcare insurance claims for downstream investigation.
+  Techniques: Classification modeling, anomaly detection, feature engineering on claims data.|
 | [`index.html`](./index.html) | Personal portfolio site — see below |
 
 > Fill in the one-line descriptions above with whatever each project actually covers (dataset, model type, key result) — happy to help draft those too if you share what's in each folder.
@@ -40,33 +49,9 @@ python3 -m http.server 8000
 ```
 
 ### Configure the contact form (EmailJS)
-
-The contact form uses [EmailJS](https://www.emailjs.com/) and currently has placeholder credentials. To make it functional:
-
-1. Create a free account at emailjs.com
-2. Set up an Email Service and Email Template
-3. In `index.html`, replace these placeholders with your own values:
-
-   ```js
-   var EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY';
-   var EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID';
-   var EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-   ```
+Feel free to reach out at kiranmunugotis@gmail.com or connect via the portfolio site for collaboration, questions, or opportunities.
 
 > The EmailJS public key is designed to be exposed client-side, so this is safe for a static site — just don't put any other secrets directly in this file.
-
-### Updating content
-
-- **Profile photo:** update the `<img src="...">` inside `.avatar-box`.
-- **Projects shown on the site:** edit the AngularJS `projects` data in the `<script>` section near the bottom of `index.html`.
-- **Skills:** edit the skills data structure in the same script section.
-
-### Enable GitHub Pages
-
-1. Go to **Settings → Pages**
-2. Under "Build and deployment," set **Source** to `Deploy from a branch`
-3. Choose the `main` branch and `/ (root)` folder
-4. Save — the site will be live at the URL above within a minute or two
 
 ## License
 
