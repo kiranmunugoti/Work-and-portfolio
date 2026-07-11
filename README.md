@@ -4,19 +4,12 @@ Contains project work and personal project ideas — data science / ML case stud
 
 ## Contents
 
-| Folder / File | Description |
-|---|---|
-| [`01-risk-scoring/`](./01-risk-scoring) | Risk scoring framework built for a hospitality portfolio context, combining multiple weighted risk dimensions into a single composite score to support portfolio-level decision-making.
-Techniques: Multi-factor scoring, weighted aggregation, risk segmentation.|
-| [`02-financial-forecasting/`](./02-financial-forecasting) | 
-| End-to-end forecasting pipeline for financial risk metrics using an ensemble of classical time-series methods.
-  Techniques: ARIMA, Holt-Winters exponential smoothing, ensemble forecasting |
-| [`03-churn-segmentation/`](./03-churn-segmentation) | 
-| Customer churn prediction paired with Recency-Frequency-Monetary (RFM) segmentation to identify at-risk, high-value customers.
-  Techniques: Logistic Regression, XGBoost, RFM segmentation, feature engineering.|
-| [`04-fraud-detection/`](./04-fraud-detection) | 
-| Model to flag anomalous and potentially fraudulent healthcare insurance claims for downstream investigation.
-  Techniques: Classification modeling, anomaly detection, feature engineering on claims data.|
+| Folder / File | Description | Techniques |
+|---|---|---|
+| [`01-risk-scoring/`](./01-risk-scoring) | Risk scoring framework built for a hospitality portfolio context, combining multiple weighted risk dimensions into a single composite score to support portfolio-level decision-making.| Multi-factor scoring, weighted aggregation, risk segmentation.|
+| [`02-financial-forecasting/`](./02-financial-forecasting) | End-to-end forecasting pipeline for financial risk metrics using an ensemble of classical time-series methods.| ARIMA, Holt-Winters exponential smoothing, ensemble forecasting |
+| [`03-churn-segmentation/`](./03-churn-segmentation) | Customer churn prediction paired with Recency-Frequency-Monetary (RFM) segmentation to identify at-risk, high-value customers.| Logistic Regression, XGBoost, RFM segmentation, feature engineering.|
+| [`04-fraud-detection/`](./04-fraud-detection) | Model to flag anomalous and potentially fraudulent healthcare insurance claims for downstream investigation.| Classification modeling, anomaly detection, feature engineering on claims data.|
 | [`index.html`](./index.html) | Personal portfolio site — see below |
 
 > Fill in the one-line descriptions above with whatever each project actually covers (dataset, model type, key result) — happy to help draft those too if you share what's in each folder.
