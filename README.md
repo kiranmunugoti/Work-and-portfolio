@@ -39,8 +39,8 @@ python3 -m http.server 8000
 ```
 ### Skills & Tools
 
-Languages/Libraries: Python (pandas, scikit-learn, XGBoost, statsmodels), SQL
-Domains: Risk modeling, time-series forecasting, customer analytics, fraud detection
+Languages/Libraries: Python (pandas, scikit-learn, XGBoost, statsmodels),
+SQL Domains: Risk modeling, time-series forecasting, customer analytics, fraud detection
 Web/Portfolio Stack: AngularJS, HTML/CSS, EmailJS
 Other: GitHub, GitHub Pages, Playwright (testing)
 
