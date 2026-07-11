@@ -12,7 +12,6 @@ Contains project work and personal project ideas — data science / ML case stud
 | [`04-fraud-detection/`](./04-fraud-detection) | Model to flag anomalous and potentially fraudulent healthcare insurance claims for downstream investigation.| Classification modeling, anomaly detection, feature engineering on claims data.|
 | [`index.html`](./index.html) | Personal portfolio site — see below |
 
-> Fill in the one-line descriptions above with whatever each project actually covers (dataset, model type, key result) — happy to help draft those too if you share what's in each folder.
 
 ## Portfolio Site
 
