@@ -6,7 +6,8 @@ Contains project work and personal project ideas — data science / ML case stud
 
 | Folder / File | Description |
 |---|---|
-| [`01-risk-scoring/`](./01-risk-scoring) | Risk scoring framework built for a hospitality portfolio context, combining multiple weighted risk dimensions into a single composite score to support portfolio-level decision-making. Techniques: Multi-factor scoring, weighted aggregation, risk segmentation |
+| [`01-risk-scoring/`](./01-risk-scoring) | Risk scoring framework built for a hospitality portfolio context, combining multiple weighted risk dimensions into a single composite score to support portfolio-level decision-making.
+Techniques: Multi-factor scoring, weighted aggregation, risk segmentation.|
 | [`02-financial-forecasting/`](./02-financial-forecasting) | 
 | End-to-end forecasting pipeline for financial risk metrics using an ensemble of classical time-series methods.
   Techniques: ARIMA, Holt-Winters exponential smoothing, ensemble forecasting |
