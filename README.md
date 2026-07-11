@@ -38,8 +38,14 @@ npx serve .
 # or
 python3 -m http.server 8000
 ```
+### Skills & Tools
 
-### Configure the contact form (EmailJS)
+Languages/Libraries: Python (pandas, scikit-learn, XGBoost, statsmodels), SQL
+Domains: Risk modeling, time-series forecasting, customer analytics, fraud detection
+Web/Portfolio Stack: AngularJS, HTML/CSS, EmailJS
+Other: GitHub, GitHub Pages, Playwright (testing)
+
+### Contact
 Feel free to reach out at kiranmunugotis@gmail.com or connect via the portfolio site for collaboration, questions, or opportunities.
 
 > The EmailJS public key is designed to be exposed client-side, so this is safe for a static site — just don't put any other secrets directly in this file.
